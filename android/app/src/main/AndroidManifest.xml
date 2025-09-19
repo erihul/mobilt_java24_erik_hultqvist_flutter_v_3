@@ -1,7 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     package="com.example.mobilt_java24_erik_hultqvist_flutter_v_3">
 
-    <!-- INTERNET permission is needed for network calls -->
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application

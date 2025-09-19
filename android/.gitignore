@@ -17,6 +17,6 @@ key.properties
 !build/
 build/*
 !build/web/
-!build/app/
+
 build/app/*
 !build/app/outputs
