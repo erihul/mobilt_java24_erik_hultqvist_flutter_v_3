@@ -36,7 +36,7 @@ A simple and elegant Flutter app where you can **like or dislike randomly genera
 - [`shared_preferences`](https://pub.dev/packages/shared_preferences) – for saving liked images and comments
 - [`flutter_staggered_grid_view`](https://pub.dev/packages/flutter_staggered_grid_view) – for a Pinterest-style image layout
 - [`google_fonts`](https://pub.dev/packages/google_fonts) – for a custom app bar font
-- [`https://picsum.photos`](https://picsum.photos/) – random image generation API
+- [`https://picsum.photos`](https://picsum.photos/) –  image-API, using endpoint for random pictures 
 
 ---
 
@@ -48,6 +48,27 @@ lib/
 
 images/                 - Icon and Screenshots for README
 ```
-###
+---
 
+##  Platform differences
+- **Navbar**
+    - Android  
+    Takes less space  
+    Smaller font
+    - Web  
+    Bigger  
+    Larger Font
+- **Buttons**
+    - Android  
+    Hoover&click-effect
+    - Web  
+    Click-effect
+- **SavedImage-options**
+    - Android  
+    Visible on hoovered saved-image
+    - Web  
+    Displayed on long-pressed saved-image
+
+
+---
 > _Developed as part of the Java24 course Mobilutveckling med Java by Erik Hultqvist._
