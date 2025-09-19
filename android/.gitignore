@@ -13,10 +13,13 @@ key.properties
 **/*.keystore
 **/*.jks
 
-#/build/
-!build/
-build/*
+# Flutter build output (except web)
+build/
 !build/web/
 
-build/app/*
-!build/app/outputs
+# Prevent APKs and AABs from being pushed
+*.apk
+*.aab
+
+bfg.jar
+
